@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"\nimport re\n\nwith open\\(''services/auto_trading.py'', ''r'', encoding=''utf-8''\\) as f:\n    lines = f.readlines\\(\\)\n\n# Find the while True line \\(line 66, 0-indexed 65\\)\n# and the line before the outer except \\(should be around ''await asyncio.sleep\\(180\\)''\\)\n# Then: insert ''try:'' after ''while True:'', indent body +4, add except before outer except\n\nwhile_idx = None\nsleep180_idx = None\nouter_except_idx = None\n\nfor i, line in enumerate\\(lines\\):\n    stripped = line.rstrip\\(\\)\n    if stripped == ''            while True:'' and while_idx is None:\n        while_idx = i\n    # Find the ''await asyncio.sleep\\(180\\)'' at 16-space indent \\(end of while loop body\\)\n    if ''                await asyncio.sleep\\(180\\)'' in stripped and while_idx and i > while_idx:\n        sleep180_idx = i\n        break\n\n# Find outer ''except asyncio.CancelledError'' after sleep180\nfor i in range\\(sleep180_idx + 1, len\\(lines\\)\\):\n    if ''except asyncio.CancelledError:'' in lines[i] and lines[i].startswith\\(''        except''\\):\n        outer_except_idx = i\n        break\n\nprint\\(f''while_idx={while_idx}, sleep180_idx={sleep180_idx}, outer_except_idx={outer_except_idx}''\\)\n\n# Lines to indent: from while_idx+1 to sleep180_idx \\(inclusive\\)\n# These are the loop body lines that need +4 spaces\nnew_lines = []\nfor i, line in enumerate\\(lines\\):\n    if i == while_idx:\n        # Keep while True as-is\n        new_lines.append\\(line\\)\n        # Insert inner try:\n        new_lines.append\\(''                try:\\\\n''\\)\n    elif while_idx < i <= sleep180_idx:\n        # Indent these lines by 4 extra spaces \\(if non-empty\\)\n        if line.strip\\(\\):\n            new_lines.append\\(''    '' + line\\)\n        else:\n            new_lines.append\\(line\\)\n    elif i == sleep180_idx + 1:\n        # Insert except block\n        new_lines.append\\(''                except asyncio.CancelledError:\\\\n''\\)\n        new_lines.append\\(''                    raise\\\\n''\\)\n        new_lines.append\\(''                except Exception as e:\\\\n''\\)\n        new_lines.append\\(''                    traceback.print_exc\\(\\)\\\\n''\\)\n        new_lines.append\\(''                    print\\(f\"\"[Авто-торговля] ❌ Ошибка в цикле для {user_id}: {e}\"\"\\)\\\\n''\\)\n        new_lines.append\\(''                    await asyncio.sleep\\(60\\)\\\\n''\\)\n        new_lines.append\\(line\\)\n    else:\n        new_lines.append\\(line\\)\n\nwith open\\(''services/auto_trading.py'', ''w'', encoding=''utf-8''\\) as f:\n    f.writelines\\(new_lines\\)\n\nprint\\(''Done''\\)\n\")",
+      "Bash(python3:*)",
+      "Bash(python3 -m py_compile:*)",
+      "Bash(pip install:*)",
+      "Bash(python:*)",
+      "Bash(.venv/Scripts/python.exe:*)",
+      "Bash(pip3:*)",
+      "Bash(pip --version:*)",
+      "Bash(tree:*)"
+    ]
+  }
+}

@@ -1,0 +1,969 @@
+{
+  "analysis_date": "2026-01-28T08:09:48.142782",
+  "user_id": 8486449177,
+  "summary": {
+    "total_closed": 1036,
+    "total_open": 14
+  },
+  "time_distribution": {
+    "overall_stats": {
+      "count": 1036,
+      "mean": 74.1932915057915,
+      "median": 34.833333333333336,
+      "std_dev": 120.63915083286649,
+      "min": 0.05,
+      "max": 2158.733333333333,
+      "q25": 13.183333333333334,
+      "q75": 78.71666666666667,
+      "iqr": 65.53333333333333,
+      "cv": 162.60115757696155,
+      "mode_range": [
+        0.05,
+        107.98416666666664
+      ]
+    },
+    "categories": {
+      "scalping_ultra": {
+        "count": 96,
+        "percentage": 9.266409266409266,
+        "total_pnl": 6336.434876867665,
+        "avg_pnl": 66.00452996737151,
+        "win_rate": 44.79166666666667,
+        "winning_trades": 43,
+        "losing_trades": 53
+      },
+      "scalping_fast": {
+        "count": 41,
+        "percentage": 3.9575289575289574,
+        "total_pnl": 7739.350509522084,
+        "avg_pnl": 188.76464657370937,
+        "win_rate": 29.268292682926827,
+        "winning_trades": 12,
+        "losing_trades": 29
+      },
+      "scalping_normal": {
+        "count": 74,
+        "percentage": 7.142857142857142,
+        "total_pnl": 511.9849978017281,
+        "avg_pnl": 6.918716186509839,
+        "win_rate": 31.08108108108108,
+        "winning_trades": 23,
+        "losing_trades": 51
+      },
+      "short_term": {
+        "count": 513,
+        "percentage": 49.51737451737452,
+        "total_pnl": -12089.802123647001,
+        "avg_pnl": -23.566865738103317,
+        "win_rate": 38.98635477582846,
+        "winning_trades": 200,
+        "losing_trades": 313
+      },
+      "medium_term": {
+        "count": 311,
+        "percentage": 30.01930501930502,
+        "total_pnl": 14933.312792558983,
+        "avg_pnl": 48.01708293427326,
+        "win_rate": 46.62379421221865,
+        "winning_trades": 145,
+        "losing_trades": 166
+      },
+      "long_term": {
+        "count": 1,
+        "percentage": 0.09652509652509653,
+        "total_pnl": 1.8082092533959477,
+        "avg_pnl": 1.8082092533959477,
+        "win_rate": 100.0,
+        "winning_trades": 1,
+        "losing_trades": 0
+      }
+    },
+    "total_trades": 1036
+  },
+  "profitability_analysis": {
+    "profitable_stats": {
+      "count": 424,
+      "mean": 94.31124213836478,
+      "median": 45.18333333333334,
+      "std_dev": 154.26934531627168,
+      "min": 0.05,
+      "max": 2158.733333333333,
+      "q25": 15.583333333333334,
+      "q75": 140.5,
+      "iqr": 124.91666666666667,
+      "cv": 163.57471476193888,
+      "mode_range": [
+        0.05,
+        107.98416666666664
+      ]
+    },
+    "losing_stats": {
+      "count": 609,
+      "mean": 60.55147783251232,
+      "median": 29.733333333333334,
+      "std_dev": 87.87333319069792,
+      "min": 0.05,
+      "max": 555.6,
+      "q25": 12.416666666666666,
+      "q75": 62.68333333333333,
+      "iqr": 50.266666666666666,
+      "cv": 145.1216986540921,
+      "mode_range": [
+        0.05,
+        27.827500000000004
+      ]
+    },
+    "correlation_time_pnl": 0.02111896641768231,
+    "optimal_time_ranges": [
+      {
+        "time_range": "38-40 мин",
+        "count": 9,
+        "win_rate": 55.55555555555556,
+        "avg_pnl": 0.7529771842513506,
+        "total_pnl": 6.776794658262156,
+        "score": 33.36345242070339
+      },
+      {
+        "time_range": "10-12 мин",
+        "count": 29,
+        "win_rate": 34.48275862068966,
+        "avg_pnl": 241.10881202180457,
+        "total_pnl": 6992.155548632332,
+        "score": 30.33400765328598
+      },
+      {
+        "time_range": "0-2 мин",
+        "count": 96,
+        "win_rate": 44.79166666666667,
+        "avg_pnl": 66.0045299673715,
+        "total_pnl": 6336.434876867664,
+        "score": 29.51518119869486
+      },
+      {
+        "time_range": "12-14 мин",
+        "count": 28,
+        "win_rate": 42.857142857142854,
+        "avg_pnl": 26.900005180116455,
+        "total_pnl": 753.2001450432607,
+        "score": 26.79028592149037
+      },
+      {
+        "time_range": "18-20 мин",
+        "count": 19,
+        "win_rate": 36.84210526315789,
+        "avg_pnl": 98.47218965101479,
+        "total_pnl": 1870.971603369281,
+        "score": 26.044150743935326
+      }
+    ],
+    "profitable_count": 424,
+    "losing_count": 609
+  },
+  "symbol_analysis": {
+    "BTC/USDT:USDT": {
+      "count": 31,
+      "win_rate": 48.38709677419355,
+      "total_pnl": 184.06205217100492,
+      "avg_pnl": 5.937485553903384,
+      "avg_holding_minutes": 91.46075268817204,
+      "scalping_percentage": 35.483870967741936
+    },
+    "NCCOSILVER2USD/USDT:USDT": {
+      "count": 32,
+      "win_rate": 25.0,
+      "total_pnl": -9.752237789813544,
+      "avg_pnl": -0.30475743093167323,
+      "avg_holding_minutes": 62.679687499999986,
+      "scalping_percentage": 9.375
+    },
+    "ZEC/USDT:USDT": {
+      "count": 119,
+      "win_rate": 37.81512605042017,
+      "total_pnl": -358.4376078052633,
+      "avg_pnl": -3.0120807378593555,
+      "avg_holding_minutes": 95.3389355742297,
+      "scalping_percentage": 17.647058823529413
+    },
+    "XLM/USDT:USDT": {
+      "count": 33,
+      "win_rate": 21.21212121212121,
+      "total_pnl": 190.73904898483306,
+      "avg_pnl": 5.779971181358578,
+      "avg_holding_minutes": 94.2429292929293,
+      "scalping_percentage": 12.121212121212121
+    },
+    "AUCTION/USDT:USDT": {
+      "count": 89,
+      "win_rate": 88.76404494382022,
+      "total_pnl": 147.16382462272287,
+      "avg_pnl": 1.6535261193564368,
+      "avg_holding_minutes": 88.61011235955056,
+      "scalping_percentage": 12.359550561797752
+    },
+    "AXS/USDT:USDT": {
+      "count": 15,
+      "win_rate": 13.333333333333334,
+      "total_pnl": -15.256682403747748,
+      "avg_pnl": -1.0171121602498499,
+      "avg_holding_minutes": 45.77,
+      "scalping_percentage": 13.333333333333334
+    },
+    "ENSO/USDT:USDT": {
+      "count": 39,
+      "win_rate": 25.64102564102564,
+      "total_pnl": -28.959120686736465,
+      "avg_pnl": -0.7425415560701658,
+      "avg_holding_minutes": 38.086324786324774,
+      "scalping_percentage": 51.28205128205128
+    },
+    "LTC/USDT:USDT": {
+      "count": 30,
+      "win_rate": 33.33333333333333,
+      "total_pnl": -314.63348839201836,
+      "avg_pnl": -10.487782946400612,
+      "avg_holding_minutes": 51.282777777777795,
+      "scalping_percentage": 23.333333333333332
+    },
+    "SHIB/USDT:USDT": {
+      "count": 73,
+      "win_rate": 32.87671232876712,
+      "total_pnl": 573.3710623531414,
+      "avg_pnl": 7.854398114426594,
+      "avg_holding_minutes": 57.22442922374428,
+      "scalping_percentage": 20.54794520547945
+    },
+    "DOT/USDT:USDT": {
+      "count": 79,
+      "win_rate": 21.518987341772153,
+      "total_pnl": -812.5270137464751,
+      "avg_pnl": -10.28515207274019,
+      "avg_holding_minutes": 70.00421940928268,
+      "scalping_percentage": 26.582278481012654
+    },
+    "ETH/USDT:USDT": {
+      "count": 63,
+      "win_rate": 25.396825396825395,
+      "total_pnl": -184.48755842548283,
+      "avg_pnl": -2.928373943261632,
+      "avg_holding_minutes": 17.10185185185185,
+      "scalping_percentage": 39.682539682539684
+    },
+    "SOL/USDT:USDT": {
+      "count": 50,
+      "win_rate": 66.0,
+      "total_pnl": -616.8998887083455,
+      "avg_pnl": -12.337997774166912,
+      "avg_holding_minutes": 49.15266666666669,
+      "scalping_percentage": 16.0
+    },
+    "XRP/USDT:USDT": {
+      "count": 66,
+      "win_rate": 51.515151515151516,
+      "total_pnl": 218.34894959698715,
+      "avg_pnl": 3.308317418136169,
+      "avg_holding_minutes": 67.38232323232323,
+      "scalping_percentage": 0.0
+    },
+    "DOGE/USDT:USDT": {
+      "count": 18,
+      "win_rate": 0.0,
+      "total_pnl": -276.9556659160841,
+      "avg_pnl": -15.386425884226895,
+      "avg_holding_minutes": 130.15462962962962,
+      "scalping_percentage": 0.0
+    },
+    "RIVER/USDT:USDT": {
+      "count": 131,
+      "win_rate": 60.30534351145038,
+      "total_pnl": 37125.37491988236,
+      "avg_pnl": 283.3998085487203,
+      "avg_holding_minutes": 94.51170483460555,
+      "scalping_percentage": 12.213740458015266
+    },
+    "BCH/USDT:USDT": {
+      "count": 4,
+      "win_rate": 75.0,
+      "total_pnl": 0.044682483503170986,
+      "avg_pnl": 0.011170620875792747,
+      "avg_holding_minutes": 0.18333333333333335,
+      "scalping_percentage": 100.0
+    },
+    "ADA/USDT:USDT": {
+      "count": 20,
+      "win_rate": 65.0,
+      "total_pnl": 766.8199946644041,
+      "avg_pnl": 38.34099973322021,
+      "avg_holding_minutes": 222.39249999999998,
+      "scalping_percentage": 40.0
+    },
+    "AVAX/USDT:USDT": {
+      "count": 48,
+      "win_rate": 27.083333333333332,
+      "total_pnl": -919.1164433599565,
+      "avg_pnl": -19.148259236665762,
+      "avg_holding_minutes": 85.38159722222223,
+      "scalping_percentage": 14.583333333333334
+    },
+    "0G/USDT:USDT": {
+      "count": 2,
+      "win_rate": 0.0,
+      "total_pnl": -12.69437733526133,
+      "avg_pnl": -6.347188667630665,
+      "avg_holding_minutes": 8.566666666666666,
+      "scalping_percentage": 50.0
+    },
+    "SUI/USDT:USDT": {
+      "count": 21,
+      "win_rate": 14.285714285714285,
+      "total_pnl": -104.32830023118035,
+      "avg_pnl": -4.968014296722874,
+      "avg_holding_minutes": 48.046031746031744,
+      "scalping_percentage": 19.047619047619047
+    },
+    "LINK/USDT:USDT": {
+      "count": 18,
+      "win_rate": 22.22222222222222,
+      "total_pnl": 123.63542791413707,
+      "avg_pnl": 6.868634884118726,
+      "avg_holding_minutes": 154.40000000000003,
+      "scalping_percentage": 16.666666666666664
+    },
+    "SKR/USDT:USDT": {
+      "count": 55,
+      "win_rate": 16.363636363636363,
+      "total_pnl": -18242.422315515876,
+      "avg_pnl": -331.6804057366523,
+      "avg_holding_minutes": 21.911818181818184,
+      "scalping_percentage": 36.36363636363637
+    }
+  },
+  "time_of_day_analysis": {
+    "00:00": {
+      "count": 14,
+      "win_rate": 14.285714285714285,
+      "avg_pnl": -4.058225440050955,
+      "total_pnl": -56.81515616071337,
+      "avg_holding_minutes": 57.39999999999999
+    },
+    "01:00": {
+      "count": 3,
+      "win_rate": 100.0,
+      "avg_pnl": 100.7080639363018,
+      "total_pnl": 302.1241918089054,
+      "avg_holding_minutes": 99.38888888888887
+    },
+    "02:00": {
+      "count": 8,
+      "win_rate": 50.0,
+      "avg_pnl": 448.70860239789147,
+      "total_pnl": 3589.6688191831317,
+      "avg_holding_minutes": 98.41458333333334
+    },
+    "03:00": {
+      "count": 5,
+      "win_rate": 20.0,
+      "avg_pnl": -0.1859037960151488,
+      "total_pnl": -0.9295189800757441,
+      "avg_holding_minutes": 6.773333333333333
+    },
+    "04:00": {
+      "count": 4,
+      "win_rate": 0.0,
+      "avg_pnl": -5.8648677257759445,
+      "total_pnl": -23.459470903103778,
+      "avg_holding_minutes": 212.8
+    },
+    "05:00": {
+      "count": 18,
+      "win_rate": 66.66666666666666,
+      "avg_pnl": 1049.3555623146726,
+      "total_pnl": 18888.400121664108,
+      "avg_holding_minutes": 30.285185185185178
+    },
+    "06:00": {
+      "count": 31,
+      "win_rate": 0.0,
+      "avg_pnl": -803.20997073001,
+      "total_pnl": -24899.50909263031,
+      "avg_holding_minutes": 33.38333333333335
+    },
+    "07:00": {
+      "count": 37,
+      "win_rate": 5.405405405405405,
+      "avg_pnl": -0.9266175296533751,
+      "total_pnl": -34.28484859717488,
+      "avg_holding_minutes": 25.43603603603603
+    },
+    "08:00": {
+      "count": 42,
+      "win_rate": 30.952380952380953,
+      "avg_pnl": 0.7298486978375514,
+      "total_pnl": 30.653645309177158,
+      "avg_holding_minutes": 39.604761904761915
+    },
+    "09:00": {
+      "count": 25,
+      "win_rate": 44.0,
+      "avg_pnl": 0.04572248909816478,
+      "total_pnl": 1.1430622274541196,
+      "avg_holding_minutes": 114.02866666666665
+    },
+    "10:00": {
+      "count": 47,
+      "win_rate": 70.2127659574468,
+      "avg_pnl": 1.4755048329725078,
+      "total_pnl": 69.34872714970787,
+      "avg_holding_minutes": 99.26453900709222
+    },
+    "11:00": {
+      "count": 36,
+      "win_rate": 0.0,
+      "avg_pnl": -1.824159495492908,
+      "total_pnl": -65.66974183774468,
+      "avg_holding_minutes": 16.497685185185183
+    },
+    "12:00": {
+      "count": 57,
+      "win_rate": 35.08771929824561,
+      "avg_pnl": 0.6241216281998802,
+      "total_pnl": 35.57493280739317,
+      "avg_holding_minutes": 73.10818713450293
+    },
+    "13:00": {
+      "count": 56,
+      "win_rate": 85.71428571428571,
+      "avg_pnl": 1.2690623464621782,
+      "total_pnl": 71.06749140188198,
+      "avg_holding_minutes": 41.83720238095238
+    },
+    "14:00": {
+      "count": 57,
+      "win_rate": 31.57894736842105,
+      "avg_pnl": 0.45613204534099483,
+      "total_pnl": 25.999526584436705,
+      "avg_holding_minutes": 93.45350877192985
+    },
+    "15:00": {
+      "count": 95,
+      "win_rate": 38.94736842105263,
+      "avg_pnl": -16.475434640274774,
+      "total_pnl": -1565.1662908261035,
+      "avg_holding_minutes": 50.18385964912278
+    },
+    "16:00": {
+      "count": 136,
+      "win_rate": 52.94117647058824,
+      "avg_pnl": -3.1725065120260045,
+      "total_pnl": -431.4608856355366,
+      "avg_holding_minutes": 91.76470588235297
+    },
+    "17:00": {
+      "count": 133,
+      "win_rate": 39.097744360902254,
+      "avg_pnl": 11.087822762010648,
+      "total_pnl": 1474.680427347416,
+      "avg_holding_minutes": 49.04335839598998
+    },
+    "18:00": {
+      "count": 86,
+      "win_rate": 26.744186046511626,
+      "avg_pnl": 26.868296049525348,
+      "total_pnl": 2310.67346025918,
+      "avg_holding_minutes": 70.32751937984497
+    },
+    "19:00": {
+      "count": 79,
+      "win_rate": 70.88607594936708,
+      "avg_pnl": 143.63405808425742,
+      "total_pnl": 11347.090588656336,
+      "avg_holding_minutes": 169.54978902953587
+    },
+    "20:00": {
+      "count": 48,
+      "win_rate": 12.5,
+      "avg_pnl": -0.6031347210299077,
+      "total_pnl": -28.95046660943557,
+      "avg_holding_minutes": 119.31111111111115
+    },
+    "21:00": {
+      "count": 6,
+      "win_rate": 33.33333333333333,
+      "avg_pnl": 704.2281676906285,
+      "total_pnl": 4225.369006143771,
+      "avg_holding_minutes": 27.78888888888889
+    },
+    "22:00": {
+      "count": 9,
+      "win_rate": 77.77777777777779,
+      "avg_pnl": 239.58685386028526,
+      "total_pnl": 2156.2816847425674,
+      "avg_holding_minutes": 92.34814814814814
+    },
+    "23:00": {
+      "count": 4,
+      "win_rate": 50.0,
+      "avg_pnl": 2.814762312897922,
+      "total_pnl": 11.259049251591687,
+      "avg_holding_minutes": 5.237500000000001
+    }
+  },
+  "day_of_week_analysis": {
+    "Понедельник": {
+      "count": 33,
+      "win_rate": 12.121212121212121,
+      "avg_pnl": -0.20832623770229605,
+      "total_pnl": -6.874765844175769,
+      "avg_holding_minutes": 123.40454545454548
+    },
+    "Вторник": {
+      "count": 463,
+      "win_rate": 43.196544276457885,
+      "avg_pnl": 0.306908266191126,
+      "total_pnl": 142.09852724649133,
+      "avg_holding_minutes": 57.29910007199424
+    },
+    "Среда": {
+      "count": 4,
+      "win_rate": 100.0,
+      "avg_pnl": 1.7852863964871637,
+      "total_pnl": 7.141145585948655,
+      "avg_holding_minutes": 110.39166666666668
+    },
+    "Четверг": {
+      "count": 159,
+      "win_rate": 38.36477987421384,
+      "avg_pnl": 121.79015605888998,
+      "total_pnl": 19364.634813363507,
+      "avg_holding_minutes": 79.90356394129981
+    },
+    "Пятница": {
+      "count": 252,
+      "win_rate": 36.507936507936506,
+      "avg_pnl": -8.34469941803143,
+      "total_pnl": -2102.8642533439206,
+      "avg_holding_minutes": 46.44616402116404
+    },
+    "Суббота": {
+      "count": 46,
+      "win_rate": 50.0,
+      "avg_pnl": 0.8153215789468603,
+      "total_pnl": 37.504792631555574,
+      "avg_holding_minutes": 205.12572463768112
+    },
+    "Воскресенье": {
+      "count": 79,
+      "win_rate": 50.63291139240506,
+      "avg_pnl": -0.10824047193130452,
+      "total_pnl": -8.550997282573057,
+      "avg_holding_minutes": 151.5945147679325
+    }
+  },
+  "open_positions": {
+    "count": 0,
+    "positions": [],
+    "avg_minutes": 0,
+    "critical_count": 0
+  },
+  "anomalies": {
+    "time_outliers": {
+      "count": 109,
+      "threshold_minutes": 177.01666666666665,
+      "examples": [
+        {
+          "symbol": "ADA/USDT:USDT",
+          "direction": "short",
+          "pnl": 1.8082092533959477,
+          "minutes": 2158.733333333333,
+          "hours": 35.97888888888888,
+          "entry_time": "2026-01-23 19:32:07",
+          "close_time": "2026-01-25 07:30:51",
+          "close_reason": "Take Profit достигнут (0.35)",
+          "entry_price": 0.36126,
+          "close_price": 0.35473,
+          "amount": 276.9080020514453,
+          "probability": 45.6,
+          "quality_score": 25.0
+        },
+        {
+          "symbol": "XLM/USDT:USDT",
+          "direction": "short",
+          "pnl": -1.7345808987951363,
+          "minutes": 555.6,
+          "hours": 9.26,
+          "entry_time": "2026-01-25 16:17:05",
+          "close_time": "2026-01-26 01:32:41",
+          "close_reason": "Stop Loss достигнут (0.21)",
+          "entry_price": 0.20355,
+          "close_price": 0.20709,
+          "amount": 489.9946041794188,
+          "probability": 92.0,
+          "quality_score": 6.0
+        },
+        {
+          "symbol": "AUCTION/USDT:USDT",
+          "direction": "long",
+          "pnl": 4.393363832097722,
+          "minutes": 555.45,
+          "hours": 9.2575,
+          "entry_time": "2026-01-27 14:46:07",
+          "close_time": "2026-01-28 00:01:34",
+          "close_reason": "Take Profit достигнут (6.31)",
+          "entry_price": 6.127,
+          "close_price": 6.396,
+          "amount": 16.332207554266617,
+          "probability": 45.6,
+          "quality_score": 25.0
+        },
+        {
+          "symbol": "AUCTION/USDT:USDT",
+          "direction": "long",
+          "pnl": 4.19737734144653,
+          "minutes": 554.3,
+          "hours": 9.238333333333333,
+          "entry_time": "2026-01-27 14:47:15",
+          "close_time": "2026-01-28 00:01:33",
+          "close_reason": "Take Profit достигнут (6.31)",
+          "entry_price": 6.127,
+          "close_price": 6.384,
+          "amount": 16.332207554266617,
+          "probability": 0.0,
+          "quality_score": 0.0
+        },
+        {
+          "symbol": "ADA/USDT:USDT",
+          "direction": "long",
+          "pnl": 148.1642864714707,
+          "minutes": 545.5,
+          "hours": 9.091666666666667,
+          "entry_time": "2026-01-22 19:24:22",
+          "close_time": "2026-01-23 04:29:52",
+          "close_reason": "Take Profit достигнут (0.36)",
+          "entry_price": 0.36009,
+          "close_price": 0.36363,
+          "amount": 41854.31821228,
+          "probability": 92.0,
+          "quality_score": 30.0
+        },
+        {
+          "symbol": "ADA/USDT:USDT",
+          "direction": "long",
+          "pnl": 148.1642864714707,
+          "minutes": 545.2333333333333,
+          "hours": 9.087222222222222,
+          "entry_time": "2026-01-22 19:24:37",
+          "close_time": "2026-01-23 04:29:51",
+          "close_reason": "Take Profit достигнут (0.36)",
+          "entry_price": 0.36009,
+          "close_price": 0.36363,
+          "amount": 41854.31821228,
+          "probability": 0.0,
+          "quality_score": 0.0
+        },
+        {
+          "symbol": "LINK/USDT:USDT",
+          "direction": "long",
+          "pnl": 110.81854003679983,
+          "minutes": 527.0,
+          "hours": 8.783333333333333,
+          "entry_time": "2026-01-22 19:24:37",
+          "close_time": "2026-01-23 04:11:37",
+          "close_reason": "Take Profit достигнут (12.33)",
+          "entry_price": 12.244,
+          "close_price": 12.334,
+          "amount": 1231.31711152,
+          "probability": 90.83,
+          "quality_score": 20.0
+        },
+        {
+          "symbol": "LINK/USDT:USDT",
+          "direction": "long",
+          "pnl": 113.28117425984065,
+          "minutes": 526.8166666666667,
+          "hours": 8.780277777777778,
+          "entry_time": "2026-01-22 19:24:45",
+          "close_time": "2026-01-23 04:11:34",
+          "close_reason": "Take Profit достигнут (12.33)",
+          "entry_price": 12.244,
+          "close_price": 12.336,
+          "amount": 1231.31711152,
+          "probability": 0.0,
+          "quality_score": 0.0
+        },
+        {
+          "symbol": "LINK/USDT:USDT",
+          "direction": "long",
+          "pnl": 113.28117425984065,
+          "minutes": 526.0166666666667,
+          "hours": 8.766944444444444,
+          "entry_time": "2026-01-22 19:25:32",
+          "close_time": "2026-01-23 04:11:33",
+          "close_reason": "Take Profit достигнут (12.33)",
+          "entry_price": 12.244,
+          "close_price": 12.336,
+          "amount": 1231.31711152,
+          "probability": 0.0,
+          "quality_score": 0.0
+        },
+        {
+          "symbol": "LINK/USDT:USDT",
+          "direction": "long",
+          "pnl": 112.04985714832134,
+          "minutes": 525.2333333333333,
+          "hours": 8.75388888888889,
+          "entry_time": "2026-01-22 19:26:17",
+          "close_time": "2026-01-23 04:11:31",
+          "close_reason": "Take Profit достигнут (12.33)",
+          "entry_price": 12.244,
+          "close_price": 12.335,
+          "amount": 1231.31711152,
+          "probability": 0.0,
+          "quality_score": 0.0
+        }
+      ]
+    },
+    "extreme_pnl": {
+      "count": 29,
+      "examples": [
+        {
+          "symbol": "RIVER/USDT:USDT",
+          "direction": "short",
+          "pnl": 2301.69615332171,
+          "minutes": 11.066666666666666,
+          "hours": 0.18444444444444444,
+          "entry_time": "2026-01-23 05:57:14",
+          "close_time": "2026-01-23 06:08:18",
+          "close_reason": "Take Profit достигнут (44.79)",
+          "entry_price": 47.113,
+          "close_price": 44.501,
+          "amount": 881.2006712563967,
+          "probability": 64.74000000000001,
+          "quality_score": 27.0,
+          "z_score": 6.662995653875337
+        },
+        {
+          "symbol": "RIVER/USDT:USDT",
+          "direction": "short",
+          "pnl": 2301.69615332171,
+          "minutes": 10.766666666666667,
+          "hours": 0.17944444444444446,
+          "entry_time": "2026-01-23 05:57:28",
+          "close_time": "2026-01-23 06:08:14",
+          "close_reason": "Take Profit достигнут (44.79)",
+          "entry_price": 47.113,
+          "close_price": 44.501,
+          "amount": 881.2006712563967,
+          "probability": 0.0,
+          "quality_score": 0.0,
+          "z_score": 6.662995653875337
+        },
+        {
+          "symbol": "RIVER/USDT:USDT",
+          "direction": "short",
+          "pnl": 2283.1909392253247,
+          "minutes": 10.833333333333334,
+          "hours": 0.18055555555555555,
+          "entry_time": "2026-01-23 05:57:26",
+          "close_time": "2026-01-23 06:08:16",
+          "close_reason": "Take Profit достигнут (44.79)",
+          "entry_price": 47.113,
+          "close_price": 44.522,
+          "amount": 881.2006712563967,
+          "probability": 0.0,
+          "quality_score": 0.0,
+          "z_score": 6.609031873304032
+        },
+        {
+          "symbol": "RIVER/USDT:USDT",
+          "direction": "long",
+          "pnl": 2148.0483871663,
+          "minutes": 44.15,
+          "hours": 0.7358333333333333,
+          "entry_time": "2026-01-22 21:59:01",
+          "close_time": "2026-01-22 22:43:10",
+          "close_reason": "Take Profit достигнут (58.30)",
+          "entry_price": 55.431,
+          "close_price": 63.352,
+          "amount": 271.1839903,
+          "probability": 0.0,
+          "quality_score": 0.0,
+          "z_score": 6.214937377170428
+        },
+        {
+          "symbol": "RIVER/USDT:USDT",
+          "direction": "long",
+          "pnl": 2131.5061637579997,
+          "minutes": 27.9,
+          "hours": 0.46499999999999997,
+          "entry_time": "2026-01-22 22:15:14",
+          "close_time": "2026-01-22 22:43:08",
+          "close_reason": "Take Profit достигнут (58.30)",
+          "entry_price": 59.217,
+          "close_price": 63.291,
+          "amount": 254.30820472901357,
+          "probability": 0.0,
+          "quality_score": 0.0,
+          "z_score": 6.166697950729996
+        },
+        {
+          "symbol": "RIVER/USDT:USDT",
+          "direction": "long",
+          "pnl": 2077.8117336786017,
+          "minutes": 88.98333333333333,
+          "hours": 1.4830555555555556,
+          "entry_time": "2026-01-22 21:14:12",
+          "close_time": "2026-01-22 22:43:11",
+          "close_reason": "Take Profit достигнут (58.30)",
+          "entry_price": 55.431,
+          "close_price": 63.093,
+          "amount": 271.1839903,
+          "probability": 0.0,
+          "quality_score": 0.0,
+          "z_score": 6.010117517365979
+        },
+        {
+          "symbol": "RIVER/USDT:USDT",
+          "direction": "long",
+          "pnl": 2034.6934792209001,
+          "minutes": 193.35,
+          "hours": 3.2224999999999997,
+          "entry_time": "2026-01-22 19:29:53",
+          "close_time": "2026-01-22 22:43:14",
+          "close_reason": "Take Profit достигнут (58.30)",
+          "entry_price": 55.431,
+          "close_price": 62.934,
+          "amount": 271.1839903,
+          "probability": 0.0,
+          "quality_score": 0.0,
+          "z_score": 5.884378684513046
+        },
+        {
+          "symbol": "RIVER/USDT:USDT",
+          "direction": "long",
+          "pnl": 2015.1682319193012,
+          "minutes": 195.21666666666667,
+          "hours": 3.2536111111111112,
+          "entry_time": "2026-01-22 19:28:05",
+          "close_time": "2026-01-22 22:43:18",
+          "close_reason": "Take Profit достигнут (58.30)",
+          "entry_price": 55.431,
+          "close_price": 62.862,
+          "amount": 271.1839903,
+          "probability": 0.0,
+          "quality_score": 0.0,
+          "z_score": 5.8274403451079495
+        },
+        {
+          "symbol": "RIVER/USDT:USDT",
+          "direction": "long",
+          "pnl": 2008.9310001424003,
+          "minutes": 194.28333333333333,
+          "hours": 3.2380555555555555,
+          "entry_time": "2026-01-22 19:28:58",
+          "close_time": "2026-01-22 22:43:15",
+          "close_reason": "Take Profit достигнут (58.30)",
+          "entry_price": 55.431,
+          "close_price": 62.839,
+          "amount": 271.1839903,
+          "probability": 0.0,
+          "quality_score": 0.0,
+          "z_score": 5.809251708909096
+        },
+        {
+          "symbol": "RIVER/USDT:USDT",
+          "direction": "long",
+          "pnl": 2008.659816152101,
+          "minutes": 189.78333333333333,
+          "hours": 3.1630555555555557,
+          "entry_time": "2026-01-22 19:33:25",
+          "close_time": "2026-01-22 22:43:12",
+          "close_reason": "Take Profit достигнут (58.30)",
+          "entry_price": 55.431,
+          "close_price": 62.838,
+          "amount": 271.1839903,
+          "probability": 0.0,
+          "quality_score": 0.0,
+          "z_score": 5.8084608986395825
+        }
+      ]
+    }
+  },
+  "recommendations": [
+    {
+      "priority": "CRITICAL",
+      "category": "Критические позиции",
+      "issue": "1 позиций (0.10%) удерживались >10 часов",
+      "current_value": 0.09652509652509653,
+      "target_value": 0.0,
+      "recommendation": "Принудительное закрытие через 10 минут с наивысшим приоритетом",
+      "expected_impact": "Устранение 1 критических случаев, улучшение дисциплины скальпинга",
+      "implementation_effort": "Низкая (уже внедрено)",
+      "confidence": 1.0
+    },
+    {
+      "priority": "CRITICAL",
+      "category": "Время удержания",
+      "issue": "Среднее время удержания 74.2 мин превышает целевое для скальпинга (7.0 мин)",
+      "current_value": 74.1932915057915,
+      "target_value": 7.0,
+      "recommendation": "Установить принудительное закрытие через 7.0 минут. Текущий процент скальпинга: 7.1%",
+      "expected_impact": "Увеличение процента скальпинга до 80%+, снижение среднего времени на 90.6%",
+      "implementation_effort": "Низкая (уже внедрено)",
+      "confidence": 0.95
+    },
+    {
+      "priority": "HIGH",
+      "category": "Аномалии",
+      "issue": "109 позиций (10.5%) являются выбросами по времени удержания",
+      "current_value": 10.521235521235521,
+      "target_value": 2.0,
+      "recommendation": "Усилить принудительное закрытие, добавить мониторинг аномалий в реальном времени",
+      "expected_impact": "Сокращение выбросов с 10.5% до <2%, улучшение дисциплины скальпинга",
+      "implementation_effort": "Средняя",
+      "confidence": 0.85
+    },
+    {
+      "priority": "MEDIUM",
+      "category": "Проблемные пары",
+      "issue": "LINK/USDT:USDT: среднее время 154.4 мин, WR 22.2%",
+      "current_value": 154.40000000000003,
+      "target_value": 10.0,
+      "recommendation": "Добавить специальные фильтры для LINK/USDT:USDT или исключить из торговли",
+      "expected_impact": "Улучшение среднего времени удержания для проблемных пар",
+      "implementation_effort": "Средняя",
+      "confidence": 0.7
+    },
+    {
+      "priority": "MEDIUM",
+      "category": "Стабильность",
+      "issue": "Высокая вариативность времени удержания (CV: 162.6%)",
+      "current_value": 162.60115757696155,
+      "target_value": 50.0,
+      "recommendation": "Унифицировать логику закрытия позиций, добавить строгие временные лимиты",
+      "expected_impact": "Снижение вариативности на 69.2%, повышение предсказуемости",
+      "implementation_effort": "Средняя",
+      "confidence": 0.65
+    },
+    {
+      "priority": "LOW",
+      "category": "Время суток",
+      "issue": "Значительная разница в эффективности: 06:00 (WR: 0.0%) vs 13:00 (WR: 85.7%)",
+      "current_value": 0.0,
+      "target_value": 85.71428571428571,
+      "recommendation": "Рассмотреть снижение активности в 06:00 или добавление специальных фильтров. Увеличить активность в 13:00",
+      "expected_impact": "Потенциальное улучшение Win Rate на 85.7% в проблемные часы",
+      "implementation_effort": "Низкая",
+      "confidence": 0.6
+    },
+    {
+      "priority": "LOW",
+      "category": "Дни недели",
+      "issue": "Разница в эффективности: Понедельник (WR: 12.1%) vs Воскресенье (WR: 50.6%)",
+      "current_value": 12.121212121212121,
+      "target_value": 50.63291139240506,
+      "recommendation": "Снизить активность в Понедельник, увеличить в Воскресенье",
+      "expected_impact": "Улучшение среднего Win Rate на 19.3%",
+      "implementation_effort": "Низкая",
+      "confidence": 0.55
+    }
+  ]
+}

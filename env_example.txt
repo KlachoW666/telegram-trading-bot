@@ -1,0 +1,31 @@
+# Токен Telegram бота (получите у @BotFather)
+BOT_TOKEN=8461579143:AAFlS4SpPbovHMh-Ut5X7qp8focyMWrBuoY
+
+# API ключи от BingX (получите на https://bingx.com)
+BINGX_API_KEY=9jkBu8WmxNF1eKoSgWXpPh0WvtSZB2XG2I5BbnMxaCaBFkjGUMiWkkRyOGCx4nvMhaikprdPHF7rCiuQ
+BINGX_SECRET_KEY=ytfE1jef0BwgWftSbm0jAbhV9x8d6c4BhPHFxtAVoWxYzY0HpmCww1F6xqm1S4LfuOTV8YxjGBWIKsUnWSgQ
+
+# Опционально: ключ для шифрования данных пользователей
+# Если не указан, будет использован дефолтный (небезопасно для продакшена!)
+ENCRYPTION_KEY=your_encryption_key_here
+
+# Опционально: прокси для Telegram (если требуется обход блокировки)
+# Формат: http://user:pass@host:port или socks5://host:port
+# TELEGRAM_PROXY=http://proxy.example.com:8080
+# TELEGRAM_PROXY=socks5://proxy.example.com:1080
+
+# Опционально: прокси для BingX API (если требуется обход блокировки)
+# Необходимо, если домен open-api.bingx.com заблокирован (ошибка "No route to host")
+# Формат: http://user:pass@host:port или socks5://host:port
+# Можно указать один прокси или несколько через запятую (для автоматической ротации)
+# BINGX_PROXY=http://user:pass@proxy.example.com:8080
+# BINGX_PROXY=socks5://proxy.example.com:1080
+# BINGX_PROXY=http://user1:pass1@proxy1.com:8080,http://user2:pass2@proxy2.com:8080
+# Или каждый прокси на новой строке (без BINGX_PROXY=):
+# user:pass@host:port
+# user2:pass2@host2:port2
+
+# Опционально: отключить проверку SSL сертификатов (небезопасно, только для тестирования)
+# Установите в false, если возникают проблемы с SSL сертификатами
+# Это необходимо на macOS при ошибке "certificate verify failed: unable to get local issuer certificate"
+# BINGX_SSL_VERIFY=false

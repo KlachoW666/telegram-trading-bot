@@ -1,0 +1,25 @@
+{
+  "scalp_smc_v2": {
+    "title": "Скальп SMC v2 (5m/1h)",
+    "timeframe": "5m",
+    "htf_timeframe": "1h",
+    "min_confirmations": 3,
+    "atr_min_percent": 0.25,
+    "sl_cooldown_minutes": 15,
+    "max_drawdown_percent": 20.0,
+    "scan_pairs_limit": 30,
+    "scan_top_n": 5
+  },
+  "trend_vwap_ichi_v1": {
+    "title": "Тренд VWAP+Ichimoku v1 (15m/4h)",
+    "timeframe": "15m",
+    "htf_timeframe": "4h",
+    "min_confirmations": 3,
+    "atr_min_percent": 0.18,
+    "sl_cooldown_minutes": 20,
+    "max_drawdown_percent": 20.0,
+    "scan_pairs_limit": 30,
+    "scan_top_n": 5
+  }
+}
+
