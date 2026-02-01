@@ -9,7 +9,9 @@ ENV/
 .venv
 .env
 *.log
-data/
+data/*.db
+data/*.sqlite
+data/*.json
 *.db
 *.sqlite
 .DS_Store
